@@ -1,0 +1,235 @@
+/*
+Project Name: Jeanine Rees website
+Author: Jeanine Rees
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  background: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  width: 960px;
+  margin: auto;
+  padding-top: 5em;
+}
+
+header {
+  background: black;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: pink;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: helvetica, arial, sans-serif;
+}
+
+#subtitle {
+  color: white;
+  font-style: italic;
+  font-size: 24px;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+nav a {
+  color: white;
+  font-size: 14px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#blurb {
+  background: black;
+  border-top: solid;
+  border-style: solid;
+  border-color: pink;
+  text-align: center;
+  padding: 20px;
+}
+
+#blurb p {
+  color: white;
+}
+
+#pithyImage {
+  margin: 15px auto 15px auto;
+  color: white;
+  max-height: 200px;
+  text-align: center;
+}
+
+h2 {
+  color: pink;
+  font-size: 18px;
+  font-family: helvetica, arial, sans-serif;
+}
+
+#design {
+  background-color: #1C1C1C;
+  display: block;
+  text-align: center;
+  height: 500px;
+}
+
+#designContent {
+  display: inline-block;
+  text-align: left;
+  width: 800px;
+  padding-left: 10px;
+}
+
+#designContent h2 {
+  background-color: #1C1C1C;
+}
+
+#editing {
+  background-color: #403F40;
+  display: block;
+  text-align: center;
+  height: 200px
+}
+
+#editingContent {
+  display: inline-block;
+  text-align: left;
+  width: 800px;
+  padding-left: 10px;
+}
+
+#editingContent h2 {
+  background-color: #403F40;
+}
+
+#otherProjects {
+  background-color: #616161;
+  display: block;
+  text-align: center;
+  height: 400px;
+}
+
+#otherContent {
+  display: inline-block;
+  text-align: left;
+  width: 800px;
+  padding-left: 10px;
+}
+
+#otherContent h2 {
+  background-color: #616161;
+}
+
+#about {
+  background-color: #8C8C8C;
+  display: block;
+  text-align: center;
+  height: 400px;
+}
+
+#aboutContent {
+  display: inline-block;
+  text-align: left;
+  width: 800px;
+  padding-left: 10px;
+}
+
+#aboutContent h2 {
+  background-color: #8C8C8C;
+}
+
+#contact {
+  background-color: #BABABA;
+  display: block;
+  text-align: center;
+  height: 200px;
+}
+
+#contactContent {
+  display: inline-block;
+  text-align: left;
+  width: 800px;
+  padding-left: 10px;
+}
+
+#contactContent h2 {
+  background-color: #BABABA;
+}
+
+
+
+footer {
+  margin: 50px 0 50px 0;
+  text-align: center;
+  font-size: 8px;
+
+}
+ 
+
+
+
+
+
+
+
+
+

@@ -9,12 +9,18 @@
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 
 	<body>
+	<container>
 		<header>
 			<h1>Jeanine Rees</h1>
+
+				<p id="subtitle">Words &amp; Pictures</p>
+
+			<img src="images/goldencanon.png" alt="Pithy Image" id="pithyImage"></a>
 
 			<nav>
 				<a>Design</a>
@@ -27,57 +33,61 @@
 		</header>
 
 		<main>
-			<div id="blurb">
-				<a><img src="#" alt="Pithy Image">Pithy image</a>
-				<p>Pithy statement</p>
-			</div>
+			
+				<div id="blurb">		
+					<p>Pithy statement</p>
+				</div>
 
 			<div id="design">
-				<h2>Design</h2>
-					<a><img src="#" alt="Posters and Promotional"></a>
-
-					<a><img scr="#" alt="Books and Brochures"></a>
-
-					<a><img src="#" alt="Logos"></a>
-
-					<a><img src="#" alt="Fun Stuff"></a>
+				<div id="designContent">
+					<h2>Design</h2>
+						<p>A masonry layout of images (16? 20?) of my work. Hover text for each image. On click, either pop-out or slide-down of larger image and a bit of explanatory text.</p>
+				</div>
 			</div>
 
 			<div id="editing">
-				<h2>Editing</h2>
-					<p>Spiel</p>
+				<div id="editingContent">
+					<h2>Editing</h2>
+						<p>Spiel</p>
+				</div>
 			</div>
 
+
 			<div id="otherProjects">
-				<h2>Other Projects</h2>
+				<div id="otherContent">
+					<h2>Other Projects</h2>
 
-					<a href="http://museumdogs.tumblr.com"><img src="#" alt="Museum Dogs"></a>
-					<p>Text about Museum Dogs</p>
+						<a href="http://museumdogs.tumblr.com"><img src="#" alt="Museum Dogs"></a>
+						<p>Text about Museum Dogs</p>
 
-					<a href="https://soundcloud.com/yunkstahn-1" alt="Yunkstahn on SoundCloud"><img src="#" alt="Yunkstahn on SoundCloud"></a>
-					<p>Text about Yunkstahn on SoundCloud</p>
+						<a href="https://soundcloud.com/yunkstahn-1" alt="Yunkstahn on SoundCloud"><img src="#" alt="Yunkstahn on SoundCloud"></a>
+						<p>Text about Yunkstahn on SoundCloud</p>
+				</div>
 			</div>
 
 			<div id="about">
-				<h2>About</h2>
-					<img src="#" alt="Little ol' me">
+				<div id="aboutContent">
+					<h2>About</h2>
+						<img src="#" alt="Little ol' me">
 
-					<p>About me</p>
+						<p>About me</p>
+				</div>
 			</div>
 
 			<div id="contact">
-				<h2>Contact</h2>
-					<p>Contact info</p>
+				<div id="contactContent">
+					<h2>Contact</h2>
+						<p>Contact info</p>
+				</div>
 			</div>
-
 		</main>
 
 	<footer>
-		<p>Whatever goes here</p>
+		<p>Copyright Jeanine Rees 2016. All rights reserved.</p>
 	</footer>
 
 
-
+	</container>
 
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/scripts.js"></script>
