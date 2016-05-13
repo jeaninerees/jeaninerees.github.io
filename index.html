@@ -8,78 +8,127 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
 
 		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/normalize.css">
+
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" href="modaal/css/modaal.css" media="screen">
 		<link rel="stylesheet" href="css/style.css">
+
+
 	</head>
 
 	<body>
-	<container>
-		<header>
+	<div class="container">
+
+		<header class="row">
+
 			<h1>Jeanine Rees</h1>
 
 				<p id="subtitle">Words &amp; Pictures</p>
 
-			<img src="images/goldencanon.png" alt="Pithy Image" id="pithyImage"></a>
+		<nav class="navbar navbar-default">
+		  	<div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        		<span class="sr-only">Toggle navigation</span>
+        		<span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+      		   </button>
+    		</div>
 
-			<nav>
-				<a>Design</a>
-				<a>Editing</a>
-				<a>Other Projects</a>
-				<a>About</a>
-				<a>Contact</a>
-			</nav>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">Work <span class="sr-only">(current)</span></a></li>
+		        <li><a href="#">Other Stuff</a></li>
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Contact</a></li>
+		      </ul>
+		     </div>
+		  </div>
+		</nav>		     
 
 		</header>
 
-		<main>
-			
-				<div id="blurb">		
+		<main class="row">
+			<div id="blurb" class="row">		
 					<p>Pithy statement</p>
-				</div>
+			</div>
 
-			<div id="design">
-				<div id="designContent">
+				<div id="design" class="row">
 					<h2>Design</h2>
-						<p>A masonry layout of images (16? 20?) of my work. Hover text for each image. On click, either pop-out or slide-down of larger image and a bit of explanatory text.</p>
+						<div id="designContent">
+						
+							<ul>
+							    <li><img src="images/blackbird.png" /><a href="images/blackbird.png" class="image">Show</a></li>
+							    	
+
+							    <li><img src="images/bespoke.png" /></li>
+							    
+							    
+							    <li><img src="images/Dial251.png" /></li>
+							  
+							    
+							    <li><img src="images/MBIS.jpg" /></li>
+							    <li><img src="images/OldDawg.png" /></li>
+							    <li><img src="images/ReesSource.png" /></li>
+							    
+							    
+							    <li><img src="images/TBF.png" /></li>
+							    
+							    
+							    <li><img src="images/XmasCard.png" /></li>
+							</ul>
+						</div>			    
 				</div>
-			</div>
-
-			<div id="editing">
-				<div id="editingContent">
-					<h2>Editing</h2>
-						<p>Spiel</p>
-				</div>
-			</div>
 
 
-			<div id="otherProjects">
-				<div id="otherContent">
+				<div id="otherProjects" class="row">
 					<h2>Other Projects</h2>
+						<div id="otherContent">
+						<div id="otherThing1">
+							<a href="http://museumdogs.tumblr.com"><img src="images/MuseumDogs.jpg" alt="Museum Dogs"></a>
+							<p>A blog about art history and dogs. Fun and a little scholarly!</p>
+							</div>
 
-						<a href="http://museumdogs.tumblr.com"><img src="#" alt="Museum Dogs"></a>
-						<p>Text about Museum Dogs</p>
-
-						<a href="https://soundcloud.com/yunkstahn-1" alt="Yunkstahn on SoundCloud"><img src="#" alt="Yunkstahn on SoundCloud"></a>
-						<p>Text about Yunkstahn on SoundCloud</p>
+						<div id="otherThing2">
+							<a href="https://soundcloud.com/yunkstahn-1" alt="Yunkstahn on SoundCloud"><img src="images/Uke.jpeg" alt="Yunkstahn on SoundCloud"></a>
+							<p>I like to sing and noodle around on the uke. What I lack in skill I make up for in enthusiasm.</p>
+						</div>
+					</div>
 				</div>
-			</div>
 
-			<div id="about">
-				<div id="aboutContent">
+				<div id="about" class="row">
 					<h2>About</h2>
-						<img src="#" alt="Little ol' me">
+						<div id="aboutContent">
+							<div id="spiel">
+								<p>I am actually kind of a shitshow, plagued by crippling insecurity and existential ennui.</p>
 
-						<p>About me</p>
+								<p>Words, pictures, words and pictures, words as pictures—I love them. I am drawn to clean lines, strong contrasts, bold forms, and designs that evoke a particular time period.</p>
+	 
+								<p>I love the process of creating—bouncing around ideas with other people, solving problems, and making a vision manifest in an attractive and practical product.</p>
+	 
+								<p>My goal is to create pieces that are clear and engaging, in which the design serves the message.</p>
+	 
+								<p>Design is an important facet of my work as a publishing and communications professional. In that role, I am also adept at editing, production, and project management. My combination of skills and experience gives me a unique ability to find the most effective ways of presenting information—in words, images, or both.</p>
+							</div>
+
+							<img src="images/Me.jpg" alt="Little ol' me">
+	
+						</div>
 				</div>
-			</div>
 
-			<div id="contact">
-				<div id="contactContent">
+				<div id="contact" class="row">
 					<h2>Contact</h2>
+						<div id="contactContent">
 						<p>Contact info</p>
+						</div>
 				</div>
-			</div>
 		</main>
 
 	<footer>
@@ -87,10 +136,14 @@
 	</footer>
 
 
-	</container>
+	</div><!-- /.container-->
 
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/scripts.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<script src="modaal/js/modaal.js" type="text/javascript"></script>
 
 	</body>
 </html>

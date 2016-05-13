@@ -61,15 +61,10 @@ body {
 /*******************************************/
 
 /* Center the container */
-.container {
-  width: 960px;
-  margin: auto;
-  padding-top: 5em;
-}
+
 
 header {
   background: black;
-  padding: 20px 0;
   text-align: center;
 }
 
@@ -87,36 +82,55 @@ h1 {
   font-size: 24px;
 }
 
-nav {
+.container-fluid {
+  display: inline-block ! important;
   text-align: center;
-  margin-bottom: 15px;
 }
 
-nav a {
+.navbar {
+  background-color: black;
+  font-size: 1.25em;
+  border: none;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  color: black;
+  text-align: center;
+  background-color: pink;
+}
+
+.navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background: pink;
+  color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
   color: white;
-  font-size: 14px;
-  margin-right: 10px;
-  margin-left: 10px;
+  text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: pink;
+}
+
+.navbar-toggle {
+  color: pink;
+}
+
+li .active {
+  border-radius: 25px;
 }
 
 #blurb {
-  background: black;
-  border-top: solid;
+  background: white;
+  /*border-top: solid;
   border-style: solid;
-  border-color: pink;
+  border-color: pink;*/
   text-align: center;
-  padding: 20px;
 }
 
 #blurb p {
-  color: white;
-}
-
-#pithyImage {
-  margin: 15px auto 15px auto;
-  color: white;
-  max-height: 200px;
-  text-align: center;
+  color: black;
 }
 
 h2 {
@@ -125,94 +139,95 @@ h2 {
   font-family: helvetica, arial, sans-serif;
 }
 
-#design {
-  background-color: #1C1C1C;
+ul {
+  columns: 200px;
+  break-inside: avoid;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+}
+li {
+  list-style-type:none;
+}
+img {
+  width: 100%;
   display: block;
-  text-align: center;
-  height: 500px;
+  object-fit: cover;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  box-shadow: 1px 3px 8px rgba(0,0,0,0.5);
 }
 
-#designContent {
-  display: inline-block;
+h2 {
+  color: black;
   text-align: left;
-  width: 800px;
-  padding-left: 10px;
-}
-
-#designContent h2 {
-  background-color: #1C1C1C;
-}
-
-#editing {
-  background-color: #403F40;
-  display: block;
-  text-align: center;
-  height: 200px
-}
-
-#editingContent {
-  display: inline-block;
-  text-align: left;
-  width: 800px;
-  padding-left: 10px;
-}
-
-#editingContent h2 {
-  background-color: #403F40;
+  padding: 20px 0 0 20px;
 }
 
 #otherProjects {
-  background-color: #616161;
   display: block;
   text-align: center;
-  height: 400px;
+  background-color: gray;
 }
 
 #otherContent {
-  display: inline-block;
-  text-align: left;
-  width: 800px;
-  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-#otherContent h2 {
-  background-color: #616161;
+#otherContent img {
+  height: 40%;
+  width: 40%;
 }
 
-#about {
-  background-color: #8C8C8C;
+#otherThing1 {
+  
+}
+
+#otherThing2 {
+  
+}
+
+#otherContent p {
   display: block;
-  text-align: center;
-  height: 400px;
+  text-align: left;
+  width: 40%;
 }
 
 #aboutContent {
-  display: inline-block;
-  text-align: left;
-  width: 800px;
-  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-around;*/
 }
 
-#aboutContent h2 {
-  background-color: #8C8C8C;
+#spiel {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+#spiel p {
+  text-align: left;
+
+}
+
+#aboutContent img {
+  height: 30%;
+  width: 30%;
+  box-shadow: none; 
 }
 
 #contact {
-  background-color: #BABABA;
   display: block;
   text-align: center;
   height: 200px;
+  background-color: gray;
 }
 
 #contactContent {
-  display: inline-block;
   text-align: left;
-  width: 800px;
-  padding-left: 10px;
-}
-
-#contactContent h2 {
-  background-color: #BABABA;
 }
 
 
