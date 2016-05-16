@@ -43,17 +43,25 @@ Author: Jeanine Rees
 /* BASE STYLES
 /*******************************************/
 
+
+@font-face {
+    font-family: VoltaT;
+    src: url(VoltaT.ttf);
+}
+
 body {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
-  background: white;
+  font-family: "VoltaT", serif;
+  background: #F7F6D5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+  }
+
+
 
 
 /******************************************
@@ -62,85 +70,145 @@ body {
 
 /* Center the container */
 
+.container {
+  width: 100%;
+}
 
 header {
   background: black;
   text-align: center;
+  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 92%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 92%);*/
 }
 
 h1 {
   text-align: center;
-  color: pink;
-  font-size: 38px;
-  font-weight: bold;
-  font-family: helvetica, arial, sans-serif;
+  color: #ff8080;
+  font-size: 6em;
+  font-family: "Rye", cursive;
+  font-style: normal;
 }
 
-#subtitle {
-  color: white;
-  font-style: italic;
-  font-size: 24px;
+h1 a:link {
+  color: #ff8080;
+  text-decoration: none;
+  font-style: normal;
+}
+
+h1 a:visited {
+  color: #ff8080;
+  text-decoration: none;
+  font-style: normal;
+}
+
+a:hover {
+  color: #ff8080;
+  text-decoration: none;
+  font-style: normal;
+}
+
+a:active{ 
+  color: #ff8080;
+  text-decoration: none;
+  font-style: normal;
+
 }
 
 .container-fluid {
   display: inline-block ! important;
   text-align: center;
+  padding: 0;
 }
 
 .navbar {
   background-color: black;
-  font-size: 1.25em;
   border: none;
+  font-family: "VoltaT";
+
+}
+
+#bs-example-navbar-collapse-1 {
+  font-family: "VoltaT";
+  font-size: 1.75em;
+}
+
+#bs-example-navbar-collapse-1 {
+  font-family: "VoltaT";
+  font-size: 1.75em;
 }
 
 .navbar-default .navbar-nav>.active>a {
-  color: black;
+  color: #F7F6D5;
   text-align: center;
-  background-color: pink;
+  background-color: black;
 }
 
 .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  background: pink;
-  color: black;
+  font-family: "Rye", cursive;
+  font-size: 1.5em;
+  color: #F7F6D5;
+  background-color: black;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: white;
+  color: #F7F6D5;
   text-align: center;
+  background-color: black;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: pink;
+  font-family: "Rye", cursive;
+  font-size: 1.5em;
+  color: #F7F6D5;
+  background-color: black;
 }
 
 .navbar-toggle {
-  color: pink;
+  font-family: "Rye", cursive;
+  font-size: 1.5em;
+  color: #F7F6D5;
+  background-color: black;
 }
 
-li .active {
-  border-radius: 25px;
-}
-
-#blurb {
-  background: white;
-  /*border-top: solid;
-  border-style: solid;
-  border-color: pink;*/
+#blurb { 
+  background: #809603;
+  /*-webkit-clip-path: polygon(0 0, 100% 5%, 98% 96%, 1% 100%);
+  clip-path: polygon(0 0, 100% 5%, 98% 96%, 1% 100%);*/
   text-align: center;
+  height: 100vh;
+  padding: 30em 20px 30em 20px;
+}
+
+#blurb #tagline {
+  color: #F7F6D5;
+  font-size: 4em;
+  font-family: "VoltaT";
+  margin: 50px 20px 50px 20px;
 }
 
 #blurb p {
-  color: black;
+  font-size: 2.5em;
+  padding: 0 20px 0 20px;
 }
 
-h2 {
-  color: pink;
-  font-size: 18px;
-  font-family: helvetica, arial, sans-serif;
+#star {
+  color: #ff8080;
+  font-family: "VoltaT";
+  font-size: 100em;
+  margin: 2em 0 2em 0;
+}
+
+#design {
+  display: block;
+  margin: 50px;
+}
+
+#designContent {
+  text-align: center;
 }
 
 ul {
-  columns: 200px;
+  columns: 300px;
   break-inside: avoid;
   margin-left: 20px;
   margin-right: 20px;
@@ -150,7 +218,7 @@ li {
   list-style-type:none;
 }
 img {
-  width: 100%;
+  width: 80%;
   display: block;
   object-fit: cover;
   margin-top: 0px;
@@ -158,85 +226,127 @@ img {
   box-shadow: 1px 3px 8px rgba(0,0,0,0.5);
 }
 
-h2 {
-  color: black;
-  text-align: left;
-  padding: 20px 0 0 20px;
-}
-
 #otherProjects {
+  margin-top: 50px;
+  /*-webkit-clip-path: polygon(4% 11%, 95% 11%, 93% 95%, 6% 91%);
+  clip-path: polygon(4% 11%, 95% 11%, 93% 95%, 6% 91%);*/
   display: block;
   text-align: center;
-  background-color: gray;
+  background-color: #809603;
 }
 
 #otherContent {
+  margin: 50px 20px 50px 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-}
 
-#otherContent img {
-  height: 40%;
-  width: 40%;
 }
 
 #otherThing1 {
-  
+  width: 60%;
+  margin: 0 auto 50px auto;
 }
 
 #otherThing2 {
-  
+  display: inline-block;
+  margin: 0 30px 20px 0;
+  text-align: left;
+}
+
+#otherThing3 {
+  display: inline-block;
+  margin: 0 30px 0 0;
+  text-align: left;
+}
+
+#otherContent img {
+  width: 300px;
+  margin: auto;
+
 }
 
 #otherContent p {
-  display: block;
   text-align: left;
-  width: 40%;
+  font-size: 2em;
 }
 
-#aboutContent {
+#rye {
+  font-family: "VoltaT";
+  font-weight: bold;
+  color: black;
+}
+
+#about {
+  background-color: #ff8080;
+  margin: 30px 0 30px 0;
+  /*-webkit-clip-path: polygon(5% 0, 98% 9%, 99% 98%, 0 100%);
+clip-path: polygon(5% 0, 98% 9%, 99% 98%, 0 100%);*/
+}
+
+#aboutContent { 
   display: flex;
   flex-direction: row;
-  /*justify-content: space-around;*/
+  justify-content: center;
+  margin: auto;
 }
 
 #spiel {
-  display: block;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
+  width: 50%;
 }
 
 #spiel p {
   text-align: left;
+  font-size: 2em;
+  margin: 1em 1em 1em 0;
 
 }
 
-#aboutContent img {
-  height: 30%;
-  width: 30%;
-  box-shadow: none; 
+#me {
+  width: 20%;
+}
+
+#me img {
+  box-shadow: none;
+  width: 300px;
+  margin-top: 50px;
 }
 
 #contact {
-  display: block;
   text-align: center;
-  height: 200px;
-  background-color: gray;
+  display: block;
+  background-color: #809603;
+  margin: 30px auto 30px auto;
+
+
 }
 
-#contactContent {
-  text-align: left;
+#contactContent{
+/*-webkit-clip-path: polygon(0 6%, 100% 0, 97% 98%, 3% 94%);
+clip-path: polygon(0 6%, 100% 0, 97% 98%, 3% 94%);*/
+  display: block;
+  background-color: #809603;
+  font-size: 2em;
+  margin: 30px auto 30px auto;
+ 
 }
 
-
+#contact a:link {
+  color: #404040;
+}
 
 footer {
-  margin: 50px 0 50px 0;
+  /*-webkit-clip-path: polygon(0 0, 100% 6%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 6%, 100% 100%, 0 100%);*/
+  margin: 0px;
+  padding: 20px 0 20px 0;
   text-align: center;
-  font-size: 8px;
-
+  font-size: 1em;
+  color: #ff8080;
+  background-color: black;
 }
  
 
