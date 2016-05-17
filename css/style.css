@@ -430,6 +430,13 @@ clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
 }
 
 @media only screen and (max-width: 800px) {
+    .navbar {
+        font-size: 1em;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
     #blurb {
       padding-top: 120px;
       padding-bottom: 40px;
