@@ -137,7 +137,7 @@ a:active{
 
 @media only screen and (max-width: 800px) {
     h1 {
-        font-size: 3em;
+        font-size: 4em;
     }
 }
 
@@ -223,14 +223,6 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
   margin: 40px 20px 50px 20px;
 }
 
-@media only screen and (max-width: 800px) {
-    #blurb #tagline {
-        margin-top: 0px;
-        padding-top: 0px;
-        font-size: 3em;
-    }
-}
-
 #blurb p {
   font-size: 3em;
   padding: 0 20px 0 20px;
@@ -244,7 +236,15 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
 }
 
 @media only screen and (max-width: 800px) {
-    h1 {
+    #blurb {
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #star {
         font-size: 3em;
     }
 }
@@ -439,6 +439,7 @@ clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 95%);
 
 #contact a:link {
   color: #404040;
+  word-wrap: break-word;
 }
 
 footer {
