@@ -406,7 +406,7 @@ footer {
 -webkit-clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
 clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
   margin: 30px 0 0 0;
-  padding: 40px 0 20px 0;
+  padding: 40px 20px 20px 20px;
   text-align: center;
   font-size: 1.2em;
   color: #ff8080;
@@ -461,6 +461,12 @@ clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
         font-size: 5em;
         margin-top: 0;
         padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #designContent a {
+        width: 50%;
     }
 }
 
