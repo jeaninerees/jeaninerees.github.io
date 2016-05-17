@@ -135,12 +135,6 @@ a:active{
 
 }
 
-@media only screen and (max-width: 800px) {
-    h1 {
-        font-size: 4em;
-    }
-}
-
 .container-fluid {
   display: inline-block ! important;
   text-align: center;
@@ -235,20 +229,6 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
   margin: 2em 0 2em 0;
 }
 
-@media only screen and (max-width: 800px) {
-    #blurb {
-        margin-top: 0px;
-        padding-top: 0px;
-        font-size: 3em;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    #star {
-        font-size: 3em;
-    }
-}
-
 .anchor{
   display: block;
   height: 150px; 
@@ -322,13 +302,6 @@ clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 98%);
   margin: 20px auto 20px auto;
 }
 
-@media only screen and (max-width: 800px) {
-    #otherThing2 {
-        float: none;
-        margin-top: 0;
-    }
-}
-
 #otherThing2 p {
   padding: 0 20px 0 20px;
   text-align: left;
@@ -346,14 +319,6 @@ margin: 20px auto 50px auto;
 padding-bottom: 30px;
 max-width: 425px;
 float: right;
-}
-
-@media only screen and (max-width: 800px) {
-    #otherThing3 {
-        float: none;
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
 }
 
 #otherThing3 p {
@@ -412,12 +377,6 @@ clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 98%);
   margin: 10px auto 30px auto;
 }
 
-@media only screen and (max-width: 800px) {
-    #me img {
-        width: 300px;
-    }
-}
-
 #contact {
   text-align: center;
   display: block;
@@ -453,12 +412,46 @@ clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
   background-color: black;
 }
  
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #blurb {
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #star {
+        font-size: 3em;
+    }
+}
 
 
+@media only screen and (max-width: 800px) {
+    #otherThing2 {
+        float: none;
+        margin-top: 0;
+    }
+}
 
 
+@media only screen and (max-width: 800px) {
+    #otherThing3 {
+        float: none;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
 
 
-
-
-
+@media only screen and (max-width: 800px) {
+    #me img {
+        width: 300px;
+    }
+}
