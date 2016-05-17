@@ -413,6 +413,15 @@ clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
   background-color: black;
 }
  
+
+
+
+@media only screen and (max-width: 800px) {
+    p {
+        font-size: 1em;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     h1 {
         font-size: 5em;
@@ -430,7 +439,7 @@ clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
 @media only screen and (max-width: 800px) {
     #tagline {
         line-height: 0.3em;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 }
 
@@ -472,8 +481,3 @@ clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
     }
 }
 
-@media only screen and (max-width: 800px) {
-    p {
-        font-size: 1em;
-    }
-}
