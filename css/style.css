@@ -88,6 +88,8 @@ body {
 
 .container {
   width: 100%;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 header {
@@ -219,7 +221,7 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
 }
 
 #blurb p {
-  font-size: 2.5em;
+  font-size: 3em;
   padding: 0 20px 0 20px;
 }
 
@@ -273,6 +275,8 @@ clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 98%);
   text-align: center;
   background-color: #809603;
   box-sizing: border-box;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #otherThing1 {
@@ -404,6 +408,7 @@ clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 95%);
   background-color: #809603;
   font-size: 2em;
   margin: 30px auto 30px auto;
+  padding: 30px 0 30px 0;
  
 }
 
@@ -414,8 +419,8 @@ clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 95%);
 footer {
 -webkit-clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
 clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
-  margin: 0px;
-  padding: 20px 0 10px 0;
+  margin: 30px 0 0 0;
+  padding: 40px 0 20px 0;
   text-align: center;
   font-size: 1.2em;
   color: #ff8080;
