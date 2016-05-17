@@ -214,7 +214,7 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
   font-size: 4.5em;
   font-family: "VoltaT";
   padding-top: 30px;
-  margin: 40px 20px 50px 20px;
+  margin: 40px 20px 40px 20px;
 }
 
 #blurb p {
@@ -226,7 +226,8 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
   color: #ff8080;
   font-family: "Rickles";
   font-size: 8em;
-  margin: 2em 0 2em 0;
+  padding: 50px 0 50px 0;
+  margin: 50px 0 50px 0;
 }
 
 .anchor{
@@ -393,7 +394,6 @@ clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 95%);
   font-size: 2em;
   margin: 30px auto 30px auto;
   padding: 30px 20px 30px 20px;
-  word-wrap: break-word;
  
 }
 
@@ -415,33 +415,29 @@ clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
  
 @media only screen and (max-width: 800px) {
     h1 {
-        font-size: 4em;
+        font-size: 5em;
     }
 }
 
 @media only screen and (max-width: 800px) {
     #blurb {
-        margin-top: 0px;
-        padding-top: 0px;
-        font-size: 3em;
+      padding-top: 140px;
+      padding-bottom: 40px;
+      font-size: 0.5em;
     }
 }
 
 @media only screen and (max-width: 800px) {
     #tagline {
-        font-size: 3em;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    #blurb p{
-        font-size: 3em;
+        line-height: 0.3em;
     }
 }
 
 @media only screen and (max-width: 800px) {
     #star {
-        font-size: 3em;
+        font-size: 5em;
+        margin-top: 0;
+        padding-top: 0;
     }
 }
 
