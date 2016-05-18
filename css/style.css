@@ -202,7 +202,7 @@ a:active{
 }
 
 #blurb { 
-  background: #809603;
+  background: #95991C;
 -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
 clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
   text-align: center;
@@ -271,7 +271,7 @@ img {
 -webkit-clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 98%);
 clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 98%);
   text-align: center;
-  background-color: #809603;
+  background-color: #95991C;
   box-sizing: border-box;
   margin-left: 0;
   margin-right: 0;
@@ -366,7 +366,7 @@ clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 98%);
 }
 
 #me {
-  margin: 30px auto 50px 30px;
+  margin: 30px auto 50px auto;
   text-align: center;
   font-size: 1.5em;
   font-weight: bold;
@@ -378,10 +378,14 @@ clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 98%);
   margin: 10px auto 30px auto;
 }
 
+#figure-caption {
+  text-align: center;
+}
+
 #contact {
   text-align: center;
   display: block;
-  background-color: #809603;
+  background-color: #95991C;
   margin: 30px auto 30px auto;
 -webkit-clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 95%);
 clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 95%);
@@ -470,7 +474,6 @@ clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
         margin-top: 0;
     }
 }
-
 
 @media only screen and (max-width: 800px) {
     #otherThing3 {
