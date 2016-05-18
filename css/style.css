@@ -476,10 +476,22 @@ clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
 }
 
 @media only screen and (max-width: 800px) {
+    #otherThing2 img{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
     #otherThing3 {
         float: none;
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #otherThing3 img{
+        width: 180px;
     }
 }
 
